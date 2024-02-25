@@ -12,6 +12,5 @@ import lombok.NoArgsConstructor;
 public class CMRespDto<T> {
 	private int code; // 1(성공),-1(실패)
 	private String message;
-	private Map<String, String> errorMap;
 	private T data;
 }
