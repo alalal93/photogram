@@ -1,7 +1,7 @@
 // (1) 회원정보 수정
 function update(userId) {
 	
-	let data = $("profileUpdate").serialize();
+	let data = $("#profileUpdate").serialize();
 	
 	console.log(data);
 	
