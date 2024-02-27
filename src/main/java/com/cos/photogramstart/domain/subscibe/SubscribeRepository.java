@@ -1,4 +1,4 @@
-package com.cos.photogramstart.domain.user.subscibe;
+package com.cos.photogramstart.domain.subscibe;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

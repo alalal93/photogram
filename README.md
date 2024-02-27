@@ -2,7 +2,7 @@
 =======
 
 
->>>>>>> 539fed3bc68d4732dae0ada223f57022b50105a3
+
 # PHOTOGRAM
 
 ## 1. JDK 11
@@ -47,9 +47,4 @@ MariaDB Driver MariaDB와 Java 간의 연결을 도와주는 JDBC 드라이버
 <<<<<<< HEAD
 
 ---
-
-
-
-
 =======
->>>>>>> 539fed3bc68d4732dae0ada223f57022b50105a3

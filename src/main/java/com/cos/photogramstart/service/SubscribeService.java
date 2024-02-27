@@ -3,7 +3,7 @@ package com.cos.photogramstart.service;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.cos.photogramstart.domain.user.subscibe.SubscribeRepository;
+import com.cos.photogramstart.domain.subscibe.SubscribeRepository;
 import com.cos.photogramstart.handler.ex.CustomApiException;
 
 import lombok.RequiredArgsConstructor;
