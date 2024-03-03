@@ -40,7 +40,7 @@
 							</c:when>
 							<c:otherwise>
 								<button class="cta"
-									onclick="toggleSubscribe(${dto.user.id}this)">구독하기</button>
+									onclick="toggleSubscribe(${dto.user.id},this)">구독하기</button>
 							</c:otherwise>
 						</c:choose>
 
