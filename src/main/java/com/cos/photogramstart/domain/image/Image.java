@@ -47,7 +47,9 @@ public class Image { //N, 1
 	private List<Likes>likes;
 	
 	
-	// 댓글
+	
+	
+	
 	
 	private LocalDateTime createDate;
 	
