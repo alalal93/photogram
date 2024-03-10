@@ -74,8 +74,10 @@ public class AuthController {
 			// User 오브젝트에 signDto에서 방금 만들었던 toEntity 데이터를 넣어주자
 			User user = signupDto.toEntity();
 			log.info(user.toString());
-			User userEntity = authService.회원가입(user);
-			System.out.println(userEntity);
+			authService.회원가입(user);
+			//System.out.println(userEntity);
+			
+			//로그를 남기는 후처리!!
 			return "auth/signin";
 		}
 	}
