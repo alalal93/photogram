@@ -175,7 +175,7 @@
 				
 		
 	
-		if (data.content === "") {
+	if (data.content === "") {
 			alert("댓글을 작성해주세요!");
 			return;
 		}
@@ -204,7 +204,8 @@
 		
 		commentList.prepend(content);
 		}).fail(error=>{
-			console.log("댓글쓰기 실패",error);
+			console.log("오류",error.responseJSON.data.content);
+			alert(error.responseJSON.data.content);
 		});
 	
 		
