@@ -197,7 +197,7 @@
 				      <b>${comment.user.username}:</b>
 				      ${comment.content}
 				    </p>
-				    <button onclick="deleteComment(${comment.id})"<i class="fas fa-times"></i></button>)
+				    <button onclick="deleteComment(${comment.id})"<i class="fas fa-times"></i></button>
 				  </div>
 			  `;
 				  		
