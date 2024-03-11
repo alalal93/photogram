@@ -179,7 +179,7 @@
 			alert("댓글을 작성해주세요!");
 			return;
 		}
-		
+
 		$.ajax({
 			type:"post",
 			url: "/api/comment",
