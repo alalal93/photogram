@@ -35,8 +35,8 @@ spring:  mvc:    view:      prefix: /WEB-INF/views/
       name: test
       password: 1234       oauth2:      client:        registration:
           facebook:
-            client-id: 946888100236759
-            client-secret: bd4e7f2b6286e5174958848b46379abe
+            client-id: 809350904357840
+            client-secret: 0aa400c69210a0c4056b87753cee0a65
             scope:            - public_profile
             - email
   
